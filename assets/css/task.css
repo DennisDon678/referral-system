@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+}
+.main-box {
+  padding-top: 20px;
+}
+
+.content {
+  text-align: center;
+  width: 70vw;
+  margin: auto;
+}
+
+.content h3 {
+  padding-bottom: 25px;
+}
+
+.image-box {
+  background-color: blue;
+  border: 10px solid blue;
+  border-radius: 21px;
+  margin: auto;
+  height: 520px;
+  width: 410px;
+}
+
+.image-box img {
+  border-radius: 21px;
+  width: 100%;
+  height: 100%;
+}
+
+.download {
+    margin: auto;
+     margin-top: 20px;
+     border: 1px solid lightblue;
+     border-radius: 10px;
+     width: fit-content;
+     padding: 5px;
+}
+
+.download:hover {
+    background-color: blue;
+    color: white;
+}
+
+.download a {
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.download:hover a {
+    color: white;
+}
+
+
+.submit {
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: blue;
+    width: fit-content;
+}
+
+.submit a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1.6px;
+}
+
+/* MEDIA */
+@media screen and (max-width: 600px ) {
+    
+.content {
+  text-align: center;
+  width: 95vw;
+  margin: auto;
+}
+
+.content h3 {
+  padding-bottom: 20px;
+}
+
+.image-box {
+  background-color: blue;
+  border: 10px solid blue;
+  border-radius: 21px;
+  margin: auto;
+  height: 520px;
+  width:90vw;
+}
+
+.image-box img {
+  border-radius: 21px;
+  width: 100%;
+  height: 100%;
+}
+
+
+.submit {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: blue;
+    width: fit-content;
+}
+
+.submit a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1.6px;
+}
+
+    
+}
+
+/* MEDIA */

@@ -1,0 +1,252 @@
+
+
+.container2 {
+    background-color: white;
+    color: black;
+    width: 90%;
+    border-radius: 21px;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.amount-box img {
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+
+
+.amount-box p {
+    font-size: 25px;
+    font-weight: bold;
+   
+}
+img {
+    text-align: center;
+}
+
+
+.dx {
+    display: flex;
+    justify-content: center;
+}
+
+.amount {
+    font-size: 35px;
+}
+.amount-box p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn-group {
+    margin: 20px 0;
+    margin-bottom: 5px;
+}
+
+.btn-group .btn {
+    margin: 8px;
+    width: 100px;
+    text-align: center;
+    color: #fff;
+    height: 40px;
+    border-radius: 15px !important;
+    font-size: 12px;
+    background-color: #047ead;
+}
+.btn {
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Montserrat";
+}
+:root {
+    --mycolor: rgb(255,0,140)
+}
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background: rgb(21,22,26);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+.text {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 40px auto;
+}
+footer input[type='email']{
+    width: calc(100vw - 40vw);
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 30px 0 0 30px;
+    outline: none;
+    border: none;
+    color: var(--mycolor);
+}
+footer input[type='submit']{
+    border: none;
+    outline: none;
+    border-radius: 0 30px 30px 0;
+    padding: 10px;
+    color: #fff;
+    background: #047ead;
+    font-size: 25px;
+    cursor: pointer;
+}
+footer input:hover[type='submit'] {background: rgb(219, 3, 154);}
+.list-footer {
+    margin: 40px auto;
+    display: flex;
+    list-style-type: none;
+}
+.list-footer li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+.list-footer li a:hover{color: #047ead;}
+
+.social-media {
+    margin: 20px auto;
+}
+.social-media i {
+    padding: 20px;
+    font-size: 25px;
+    color: #fff;
+}
+.social-media i:hover{
+    color: rgb(2,255,171);
+}
+
+@media(max-width:810px){
+    .text ,  footer input[type='email'] ,
+    footer input[type='submit'] {
+        font-size: 20px;
+    }
+    .list-footer li a {
+        padding: 15px;
+        font-size: 15px;
+    }
+    .social-media i {
+        padding: 10px;
+    }
+}
+@media(max-width:610px){
+    .text ,  footer input[type='email'] ,
+    footer input[type='submit'] {
+        font-size: 14px;
+    }
+    .list-footer li a {
+        padding: 10px;
+        font-size: 12px;
+    }
+    .social-media i {
+       font-size: 15px;
+    }
+}
+@media(max-width:470px){
+    .text {
+        font-size: 12px;
+    }
+    .list-footer li a {
+        padding: 5px;
+    }
+}
+@media(max-width:330px){
+    .text {
+        font-size: 10px;
+    }
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #222;
+}
+
+.profile-pic-div{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #047ead;
+}
+
+#photo{
+    height: 100%;
+    width: 100%;
+}
+
+#file{
+    display: none;
+}
+
+#uploadBtn{
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    color: wheat;
+    line-height: 30px;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    display: none;
+}
+@media only screen and (min-width: 400px){
+    .profile-pic-div{
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 50%;
+        overflow: hidden;
+        border: 2px solid #047ead;
+    }
+}
+
+
+
+
+

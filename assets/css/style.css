@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+.img-slider{
+  position: relative;
+  width: 90vw;
+  height: 100vh;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.img-slider .slide{
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  clip-path: circle(0% at 0 50%);
+}
+
+.img-slider .slide.active{
+  clip-path: circle(150% at 0 50%);
+  transition: 2s;
+  transition-property: clip-path;
+}
+
+.img-slider .slide img{
+  z-index: 1;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.img-slider .slide .info{
+  position: absolute;
+  top: 0;
+  padding: 15px 30px;
+}
+
+.img-slider .slide .info h2{
+  color: #fff;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.img-slider .slide .info p{
+  color: #fff;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  width: 60%;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.img-slider .navigation{
+  z-index: 2;
+  position: absolute;
+  display: flex;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.img-slider .navigation .btn{
+  background: rgba(255, 255, 255, 0.5);
+  width: 12px;
+  height: 12px;
+  margin: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.img-slider .navigation .btn.active{
+  background: #2696E9;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 820px){
+  .img-slider{
+    width: 600px;
+    height: 375px;
+  }
+
+  .img-slider .slide .info{
+    padding: 10px 25px;
+  }
+
+  .img-slider .slide .info h2{
+    font-size: 35px;
+  }
+
+  .img-slider .slide .info p{
+    width: 70%;
+    font-size: 15px;
+  }
+
+  .img-slider .navigation{
+    bottom: 25px;
+  }
+
+  .img-slider .navigation .btn{
+    width: 10px;
+    height: 10px;
+    margin: 8px;
+  }
+
+  referral-link .link a {
+  text-decoration: none;
+  font-size: 10px;
+  padding: 10px;
+ 
+}
+
+}
+
+@media (max-width: 620px){
+  .img-slider{
+    width: 400px;
+    height: 250px;
+  }
+
+  .img-slider .slide .info{
+    padding: 10px 20px;
+  }
+
+  .img-slider .slide .info h2{
+    font-size: 30px;
+  }
+
+  .img-slider .slide .info p{
+    width: 80%;
+    font-size: 13px;
+  }
+
+  .img-slider .navigation{
+    bottom: 15px;
+  }
+
+  .img-slider .navigation .btn{
+    width: 8px;
+    height: 8px;
+    margin: 6px;
+  }
+}
+
+@media (max-width: 420px){
+  .img-slider{
+    width: 320px;
+    height: 200px;
+  }
+
+  .img-slider .slide .info{
+    padding: 5px 10px;
+  }
+
+  .img-slider .slide .info h2{
+    font-size: 25px;
+    top: 10px;
+  }
+
+  .img-slider .slide .info p{
+    width: 90%;
+    font-size: 11px;
+  }
+
+  .img-slider .navigation{
+    bottom: 10px;
+  }
+}
+
+
+
+
+
+
+
+/* Dashboard */
+
+.referral-link {
+  margin: auto;
+  margin: auto 10px;
+  border-radius: 20px;
+  padding: 5px  0;
+  align-items: center;
+  box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffff;
+}
+
+.referral-link .copy {
+   text-align: center;
+   margin-left: 1%;
+   border-radius: 20px 0 0 20px;
+
+}
+
+.referral-link .copy p {
+  font-size: 20px;
+}
+
+.referral-link .link {
+  text-align: center;
+  
+}
+
+.referral-link .link a {
+  text-decoration: none;
+  font-size: 20px;
+ 
+}
+
+.container2 {
+  padding: 10px 5px;
+  margin-bottom: 20px;
+}
+
+.bal-flex {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+} 
+
+.bal {
+  padding: 0 15px;
+  border-radius: 15px;
+  background-color: rgba(194, 194, 194, 0.378);
+  box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffff;
+}
+
+.tasks {
+  width: 80%;
+  background-color: #fff;
+  margin: auto;
+  border-radius: 21px;
+}
+
+
+#tables {
+  background-color: #2696E9;
+}
+
+
+@media (max-width: 834px) {
+  .bal-flex {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 70%;
+} 
+
+.bal {
+  
+  margin-bottom: 15px;
+  padding: 0 15px;
+  border-radius: 15px;
+  background-color: rgba(194, 194, 194, 0.378);
+  box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffff;
+}
+
+}
